@@ -1,17 +1,20 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title> Nehemya Assefa | Portfolio</title>
+  <title>Nehemya Assefa | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
   <script defer src="script.js"></script>
 </head>
+
 <body>
   <header class="site-header">
     <nav class="nav">
       <a href="#" class="logo">Nehemya Assefa</a>
       <button class="menu-btn" id="menuBtn">☰</button>
+
       <div class="nav-links" id="navLinks">
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
@@ -25,16 +28,23 @@
   <main>
     <section class="hero section">
       <div class="hero-text">
-        <p class="eyebrow">Computer Science Student • University of Minnesota • GPA 3.8</p>
-        <h1>Software Engineer, AI Builder, and Computer Science Student.</h1>
+        <p class="eyebrow">
+          Computer Science @ University of Minnesota • Dean’s List Recipient • GPA 3.8
+        </p>
+
+        <h1>
+          Hi, I’m Nehemya.<br>
+          I build software that solves real problems.
+        </h1>
+
         <p class="hero-subtitle">
-          I’m a Computer Science student at the University of Minnesota with a minor in
-          Management of Technology. I enjoy building AI applications, software systems,
-          and real-world tools that solve meaningful problems.
+          I’m a Computer Science student with a minor in Management of Technology.
+          I’m interested in AI, software engineering, cloud computing, cybersecurity,
+          and building useful tools that people can actually use.
         </p>
 
         <div class="hero-buttons">
-          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn primary" href="#projects">See Projects</a>
           <a class="btn secondary" href="resume.pdf" target="_blank">Resume</a>
           <a class="btn secondary" href="https://github.com/nehemya123" target="_blank">GitHub</a>
           <a class="btn secondary" href="https://www.linkedin.com/in/nehemya-assefa" target="_blank">LinkedIn</a>
@@ -49,14 +59,39 @@
     <section id="about" class="section split">
       <div>
         <p class="eyebrow">About Me</p>
-        <h2>Keep learning, keep building, keep growing.</h2>
+        <h2>Not just a resume — this is my building journey.</h2>
       </div>
+
       <p>
-        I’m a motivated computer science student who enjoys solving problems step by step.
-        I’m interested in artificial intelligence, software engineering, web development,
-        and technology that helps people. My goal is to keep building real projects, improve
-        my technical skills, and grow into a strong software engineer.
+        I created this portfolio to show the projects, experiences, and skills I’m building
+        as I grow into a software engineer. I enjoy taking an idea, breaking it down step by step,
+        and turning it into something useful. My main interests are artificial intelligence,
+        backend development, cybersecurity, cloud technologies, and real-world software systems.
       </p>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Highlights</p>
+        <h2>What I’m proud of</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div>
+          <h3>Dean’s List</h3>
+          <p>Recognized twice during my first year at the University of Minnesota.</p>
+        </div>
+
+        <div>
+          <h3>Internship Experience</h3>
+          <p>Gained experience through software, UX research, workforce technology, and technical instruction roles.</p>
+        </div>
+
+        <div>
+          <h3>Project Builder</h3>
+          <p>Built projects in AI, web development, C++, algorithms, and networking.</p>
+        </div>
+      </div>
     </section>
 
     <section id="projects" class="section">
@@ -70,9 +105,9 @@
           <div class="project-number">01</div>
           <h3>AI Chess Engine</h3>
           <p>
-            Developed a playable chess game featuring an AI opponent powered by Minimax
-            and Alpha-Beta Pruning. Implemented legal move validation, board evaluation,
-            and checkmate detection.
+            A playable chess game with an AI opponent using Minimax and Alpha-Beta Pruning.
+            This project helped me understand algorithms, decision trees, move validation,
+            and how AI can make strategic choices.
           </p>
           <span>Python • AI • Algorithms</span>
         </article>
@@ -81,8 +116,9 @@
           <div class="project-number">02</div>
           <h3>Smart AI Calculator</h3>
           <p>
-            Built a web application capable of solving algebraic expressions and math
-            problems through a responsive interface connected to a REST API.
+            A web app that solves algebraic expressions and math problems through a clean
+            interface connected to an API. I built this to practice frontend design,
+            API communication, and problem-solving logic.
           </p>
           <span>JavaScript • HTML • CSS • API</span>
         </article>
@@ -91,8 +127,9 @@
           <div class="project-number">03</div>
           <h3>AI Chatbot</h3>
           <p>
-            Created a chatbot that responds to user questions through a conversational
-            interface. Implemented intent recognition and response-routing logic using Python.
+            A chatbot that responds to user questions using a conversational interface.
+            The goal was to learn how user input, response routing, and AI logic work together
+            in a real application.
           </p>
           <span>Python • NLP • AI</span>
         </article>
@@ -101,11 +138,30 @@
           <div class="project-number">04</div>
           <h3>C++ Simulation Suite</h3>
           <p>
-            Developed object-oriented simulations involving robots, sensors, and
-            environmental interactions while applying UML, inheritance, polymorphism,
-            and debugging techniques.
+            Object-oriented simulations involving robots, sensors, and environmental interactions.
+            This project helped me practice inheritance, polymorphism, UML design, and debugging.
           </p>
           <span>C++ • OOP • UML</span>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">05</div>
+          <h3>Network Design Project</h3>
+          <p>
+            Designed and configured a small network using switches, PCs, and router connections
+            in Cisco Packet Tracer. I practiced IP addressing, troubleshooting, and device communication.
+          </p>
+          <span>Cisco Packet Tracer • Networking • Troubleshooting</span>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">06</div>
+          <h3>TheSHFTApp UX & Research Internship</h3>
+          <p>
+            Worked on workforce technology, UX review, product feedback, and startup research.
+            This helped me understand how real products are tested, improved, and shaped around users.
+          </p>
+          <span>UX Research • Product Thinking • QA</span>
         </article>
       </div>
     </section>
@@ -113,7 +169,7 @@
     <section id="experience" class="section">
       <div class="section-heading">
         <p class="eyebrow">Experience</p>
-        <h2>Experience</h2>
+        <h2>Where I’m growing professionally</h2>
       </div>
 
       <div class="timeline">
@@ -121,17 +177,26 @@
           <h3>Software Engineering Intern</h3>
           <p class="muted">Gebeya Inc. — Remote • Summer 2026</p>
           <p>
-            Developed and maintained software features using Python and C++.
-            Participated in testing, debugging, code reviews, and GitHub-based collaboration.
+            Supported software development using Python and C++. Participated in debugging,
+            testing, GitHub collaboration, and learning how engineering teams build reliable software.
           </p>
         </div>
 
         <div class="timeline-item">
-          <h3>Undergraduate Teaching Assistant</h3>
-          <p class="muted">University of Minnesota CSE • Fall 2026</p>
+          <h3>Educational Internship – Workforce Technology, UX & Research</h3>
+          <p class="muted">TheSHFTApp — Remote • 2026</p>
           <p>
-            Supported students in advanced programming topics including debugging,
-            object-oriented programming, data structures, and coding assignments.
+            Contributed to product review, UX feedback, workforce technology research,
+            and quality assurance activities for a startup environment.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <h3>Product Expert Ambassador Program</h3>
+          <p class="muted">Gebeya Inc. — Remote • 2026</p>
+          <p>
+            Engaged with product learning, community outreach, and technology-focused initiatives
+            while gaining exposure to real-world digital products.
           </p>
         </div>
 
@@ -139,8 +204,8 @@
           <h3>STEM Technical Instructor Intern</h3>
           <p class="muted">Tech Academy • Summer 2025</p>
           <p>
-            Assisted in teaching coding, robotics, and technology skills to students ages 12+.
-            Provided technical support and mentorship during STEM projects.
+            Assisted students with coding, robotics, and STEM projects while helping them build
+            confidence in technology.
           </p>
         </div>
 
@@ -148,8 +213,8 @@
           <h3>Church Media Technology Director</h3>
           <p class="muted">Volunteer Leadership • 2022 – Present</p>
           <p>
-            Lead media production including photography, videography, live audiovisual systems,
-            and website support using HTML, CSS, and JavaScript.
+            Lead media production, photography, videography, live audiovisual support,
+            and website updates using HTML, CSS, and JavaScript.
           </p>
         </div>
       </div>
@@ -166,13 +231,15 @@
           <h3>Languages</h3>
           <p>C++, Java, Python, JavaScript, HTML, CSS, SQL</p>
         </div>
+
         <div>
-          <h3>Libraries</h3>
-          <p>PyTorch, TensorFlow, NumPy, OpenCV</p>
+          <h3>Tools & Platforms</h3>
+          <p>Git, GitHub, VS Code, IntelliJ, Jupyter Notebook, Google Colab, Cisco Packet Tracer</p>
         </div>
+
         <div>
-          <h3>Tools</h3>
-          <p>Git, GitHub, VS Code, IntelliJ, Jupyter Notebook, Google Colab</p>
+          <h3>Interests</h3>
+          <p>Artificial Intelligence, Cybersecurity, Backend Development, Cloud Computing, DevOps</p>
         </div>
       </div>
     </section>
@@ -180,8 +247,10 @@
     <section id="contact" class="section contact">
       <p class="eyebrow">Contact</p>
       <h2>Let’s connect.</h2>
+
       <p>
-        I’m looking for opportunities to grow as a developer and contribute to real-world software projects.
+        I’m looking for opportunities to grow as a developer, contribute to real software projects,
+        and keep learning from strong engineering teams.
       </p>
 
       <div class="hero-buttons">
